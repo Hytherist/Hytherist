@@ -1,6 +1,8 @@
 /* avataricon */
 
 .avataricon {
+    aspect-ratio: 1/1;
+    object-fit: cover;
     border-radius: 50%;
     width: 35px;
     height: 35px;
