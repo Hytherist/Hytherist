@@ -1,17 +1,124 @@
-img {
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 /* avataricon */
 
 .avataricon {
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  overflow: hidden;
-  display: block; 
-  margin-right: 10px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    display: block;
+    margin-right: 10px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project:hover .project-image img {
+    transform: scale(1.1);
+}
+
+.project h2 {
+    font-size: 1.3em;
+    margin: 0;
+    transition: color 0.3s;
+}
+
+.project:hover .project h2 {
+    color: #007BFF;
+}
+
+.project p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.project:hover .project p {
+    color: #444;
+}
+
+.project {
+    position: relative;
+    width: 320px;
+    height: 400px;
+    background: linear-gradient(180deg, #fff 50%, #000 50%);
+    color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 20px;
+    transition: transform 0.3s;
+    transform-origin: center bottom;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.project-image1 {
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    height: 50%;
+}
+
+.project-image1 img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 77%;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-info {
+    padding: 30px;
+    margin-top: auto;
+    height: auto;
+}
+
+.project-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.detail {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 9px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+.project-image2 img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-image2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    height: 50%;
 }
