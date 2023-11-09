@@ -27,7 +27,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/* Glow Container */
 * {
     margin: 0;
     padding: 0;
@@ -48,75 +47,15 @@ css {
     margin-top: 5%;
 }
 
-/* #workarea {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    background-color: #1a1917;
-
-} */
-
-/* #personal {
-    color: white;
-    text-decoration: none;
-    position: absolute;
-    bottom: 15px;
-    right: 2%;
-} */
-
 .spot {
     position: absolute;
     left: 0;
 }
 
-.svg-wrapper {
-    position: relative;
-    display: inline-block;
-    border-radius: 3px;
-    margin-left: 5px;
-    margin-right: 5px;
-    transform: scale(5);
-}
-
-#shape {
-    stroke-width: 3px;
-    fill: transparent;
-    stroke: #009FFD;
-    stroke-dasharray: 85 400;
-    stroke-dashoffset: -342;
-    transition: 1s all ease;
-}
-
-.svg-wrapper:hover #shape {
-    stroke-dasharray: 50 0;
-    stroke-width: 3px;
-    stroke-dashoffset: 0;
-    stroke: #FD673A;
-}
-
 /* TypeWriter */
 .containerType {
     display: inline-block;
-    margin-top: 3.5px; 
     padding: 0;
-}
-
-.text {
-    color: white;
-    font-size: 1.1em;
-    letter-spacing: 1px;
-    font-family: 'Rubik';
-    width: 80%;
-    border-right: 1px solid;
-    border-top: 2px;
-    white-space: nowrap;
-    overflow: hidden;
-    margin-top: 1px;
-    position: relative; 
-    left: 14%;
-    animation:
-        typing 8s infinite,
-        cursor .5s step-end infinite alternate;
 }
 
 .containerType a {
@@ -133,12 +72,15 @@ css {
     0% {
         width: 0;
     }
+
     25% {
         width: 100%;
     }
+
     75% {
         width: 100%;
     }
+
     100% {
         width: 0;
     }
@@ -150,7 +92,25 @@ css {
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/rubik/v28/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0U1.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+}
+
+.text {
+    color: white;
+    font-size: 5em;
+    letter-spacing: 1px;
+    font-family: 'Rubik';
+    width: 80%;
+    border-right: 1px solid;
+    border-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 1px;
+    position: relative;
+    left: -32%;
+    animation:
+        typing 8s infinite,
+        cursor .5s step-end infinite alternate;
+}
 
 /* avatar */
 .avatar {
@@ -158,9 +118,8 @@ css {
     width: 300px;
     height: 300px;
     overflow: hidden;
-    display: block; 
-    margin: 0 auto; 
-    margin-bottom: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 img {
@@ -177,6 +136,32 @@ img {
     width: 35px;
     height: 35px;
     overflow: hidden;
-    display: block; 
+    display: block;
     margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 2.1em;
+        width: 95%;
+        left: 15%;
+    }
+
+    .avatar {
+        width: 40%;
+        height: 40%;
+    }
+
+    .center-content {
+        margin-top: 10%; /* Adjust this margin as needed to move the content up on mobile screens */
+        width: 100%; /* Set the width to fill the entire viewport */
+        text-align: center; /* Center the text within the screen */
+    }
+
+    .entirecontainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh; /* Set the height of the entire container to the viewport height */
+    }
 }
