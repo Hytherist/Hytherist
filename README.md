@@ -1,5 +1,5 @@
 # Welcome to my Website!
-### [hytherist.github.io](https://hytherist.github.io)
+### [hytherist.github.io](https://hytherist.github.io/index.html)
 
 ## There are 3 pages:
 ### [Home](https://hytherist.github.io/index.html)
