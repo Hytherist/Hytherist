@@ -153,15 +153,15 @@ img {
     }
 
     .center-content {
-        margin-top: 10%; /* Adjust this margin as needed to move the content up on mobile screens */
-        width: 100%; /* Set the width to fill the entire viewport */
-        text-align: center; /* Center the text within the screen */
+        margin-top: 10%; 
+        width: 100%;
+        text-align: center; 
     }
 
     .entirecontainer {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 50vh; /* Set the height of the entire container to the viewport height */
+        height: 50vh;
     }
 }
