@@ -145,7 +145,7 @@ img {
         font-size: 1.8em;
         width: 40%;
         height: 40%;
-        left: 20%;
+        left: 12%;
     }
 
     .avatar {
@@ -156,7 +156,6 @@ img {
     .center-content {
         margin-top: 40%; 
         width: 100%;
-        text-align: center; 
     }
 
     .entirecontainer {
@@ -164,14 +163,5 @@ img {
         align-items: center;
         justify-content: center;
         height: 50vh;
-    }
-
-    #background-video {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: fit-content;
-        height: auto;
-        z-index: -1;
     }
 }
