@@ -142,9 +142,10 @@ img {
 
 @media (max-width: 768px) {
     .text {
-        font-size: 1.8em;
-        width: 95%;
-        left: 15%;
+        font-size: 1.5em;
+        width: 40%;
+        height: 40%;
+        left: 20%;
     }
 
     .avatar {
@@ -153,7 +154,7 @@ img {
     }
 
     .center-content {
-        margin-top: 10%; 
+        margin-top: 40%; 
         width: 100%;
         text-align: center; 
     }
@@ -163,10 +164,5 @@ img {
         align-items: center;
         justify-content: center;
         height: 50vh;
-    }
-
-    html, body {
-        overflow: hidden;
-        height: 100%;
     }
 }
