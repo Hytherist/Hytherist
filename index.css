@@ -142,7 +142,7 @@ img {
 
 @media (max-width: 768px) {
     .text {
-        font-size: 2.1em;
+        font-size: 1.8em;
         width: 95%;
         left: 15%;
     }
@@ -163,5 +163,10 @@ img {
         align-items: center;
         justify-content: center;
         height: 50vh;
+    }
+
+    html, body {
+        overflow: hidden;
+        height: 100%;
     }
 }
