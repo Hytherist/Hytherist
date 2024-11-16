@@ -1,10 +1,10 @@
 # Welcome to my Website!
-### [derekchengg.github.io](https://derekchengg.github.io/index.html)
+### [derekchengg.github.io](https://derekchengg.github.io/old/index.html)
 
 ## There are 3 pages:
-### [Home](https://derekchengg.github.io/index.html)
+### [Home](https://derekchengg.github.io/old/index.html)
 > Landing page
-### [About Me](https://derekchengg.github.io/aboutme/aboutme.html)
+### [About Me](https://derekchengg.github.io/old/aboutme/aboutme.html)
 > Information about me
-### [Portfolio](https://derekchengg.github.io/portfolio/portfolio.html)
+### [Portfolio](https://derekchengg.github.io/old/portfolio/portfolio.html)
 > Projects I've done
