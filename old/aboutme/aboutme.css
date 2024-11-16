@@ -16,11 +16,16 @@ img {
   margin-right: 10px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
 .about-me {
-  max-width: 500px; /* Limit width for readability */
-  text-align: left; /* Align text to the left */
-  padding: 20px; /* Add some padding */
-  background-color: #f0f0f0; /* Add a background color */
-  border-radius: 10px; /* Add rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow */
+  max-width: 500px;
+  text-align: left;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
